@@ -1,0 +1,25 @@
+From 2d16d4dcd79a0c1daa2b8e611dece58fb7b5d486 Mon Sep 17 00:00:00 2001
+From: prathik kurup <112079514+Prathikkurup@users.noreply.github.com>
+Date: Fri, 8 Dec 2023 12:32:19 +0530
+Subject: [PATCH] Update App.tsx
+
+---
+ src/App.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/App.tsx b/src/App.tsx
+index 274d20b..8237c10 100755
+--- a/src/App.tsx
++++ b/src/App.tsx
+@@ -13,7 +13,7 @@ class App extends Component<{}, IState> {
+     super(props);
+     this.state = {
+       data: [],
+-      showGraph: false,
++      showGraph: true,
+     };
+   }
+ 
+-- 
+2.42.0.windows.2
+
