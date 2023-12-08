@@ -13,7 +13,7 @@ class App extends Component<{}, IState> {
     super(props);
     this.state = {
       data: [],
-      showGraph: false,
+      showGraph: true,
     };
   }
 
